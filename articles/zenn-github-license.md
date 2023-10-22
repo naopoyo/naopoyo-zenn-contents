@@ -29,7 +29,7 @@ Zennの記事をGitHubで管理してて、そのリポジトリがパブリッ�
 
 [GitHub APIのエクスプローラー](https://docs.github.com/ja/graphql/overview/explorer) で以下のクエリを実行して `licenseInfo` の値を見て調査しました。
 
-```gql
+```graphql
 {
   search(
     first: 100
