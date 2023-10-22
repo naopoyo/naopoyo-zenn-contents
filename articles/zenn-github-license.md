@@ -1,9 +1,9 @@
 ---
 title: "Zennの記事を管理しているGitHubリポジトリのライセンスをみんなはどうしているのか調べてみた"
 emoji: "⚖️"
-type: "idea" # tech: 技術記事 / idea: アイデア
+type: "idea"
 topics: ["zenn"]
-published: false
+published: true
 ---
 
 ## はじめに
@@ -23,11 +23,11 @@ Zennの記事をGitHubで管理してて、そのリポジトリがパブリッ�
   - GNU Free Documentation License
   - Attribution-NonCommercial 4.0 International
 
-ドキュメント的なものでもMIT Licenseにしておくのが無難ということでしょうか。LISENCEファイルを置いていない方も多いので、それがスタンダードとも言えるのかもしれません。
+ドキュメント的なものでも自由に使えるということを示したい場合はMIT Licenseにしておくのが無難ということでしょうか。LISENCEファイルを置いていない方も多いので、それがスタンダードとも言えるのかもしれません。
 
 ## 調べ方
 
-[エクスプローラー - GitHub Docs](https://docs.github.com/ja/graphql/overview/explorer) で以下のクエリを実行して `licenseInfo` の値を見て調査しました。
+[GitHub APIのエクスプローラー](https://docs.github.com/ja/graphql/overview/explorer) で以下のクエリを実行して `licenseInfo` の値を見て調査しました。
 
 ```gql
 {
