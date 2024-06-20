@@ -1,7 +1,7 @@
 ---
 title: VSCodeのFront Matter CMSでZennの記事を管理しよう
 emoji: 📚
-published: false
+published: true
 date: 2024-06-20
 topics:
   - vscode
