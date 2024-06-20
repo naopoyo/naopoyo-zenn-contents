@@ -4,15 +4,24 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
+devDependencies:
+  prettier:
+    specifier: 3.3.2
+    version: 3.3.2
   zenn-cli:
-    specifier: ^0.1.148
-    version: 0.1.148
+    specifier: 0.1.154
+    version: 0.1.154
 
 packages:
 
-  /zenn-cli@0.1.148:
-    resolution: {integrity: sha512-q4c3W6HOJZzX+Ce/7d4vBm5iY2G8j5o+d5P04BuxE5U9rg2qOrZS9PJEIFk9QktJ7BwJ6RjxkGiQI+rnGx/BIw==}
+  /prettier@3.3.2:
+    resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
+  /zenn-cli@0.1.154:
+    resolution: {integrity: sha512-s9SZst7TWiA2VS+40CWUS7pu5cl2OAIhNPyiAtqIwjDFzqB47vVsN78G8VK7VZ7ov6B4gqQrQHcgMHVqvoLN8g==}
     engines: {node: '>=14.0.0'}
     hasBin: true
-    dev: false
+    dev: true

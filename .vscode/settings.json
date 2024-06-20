@@ -1,0 +1,12 @@
+{
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markdownlint.config": {
+    "no-bare-urls": false,
+    "no-inline-html": false
+  },
+  "markdown.updateLinksOnFileMove.enabled": "always",
+  "frontMatter.dashboard.openOnStart": true,
+  "editor.formatOnSave": true
+}
