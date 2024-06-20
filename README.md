@@ -1,3 +1,3 @@
-# Zenn CLI
+# naopoyo-zenn-contents
 
-* [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)
+[Zennの記事](https://zenn.dev/naopoyo)管理のためのリポジトリです。
