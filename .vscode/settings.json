@@ -7,6 +7,5 @@
     "no-inline-html": false
   },
   "markdown.updateLinksOnFileMove.enabled": "always",
-  "frontMatter.dashboard.openOnStart": true,
   "editor.formatOnSave": true
 }
