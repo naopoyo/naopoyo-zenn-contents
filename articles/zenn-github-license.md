@@ -1,9 +1,11 @@
 ---
-title: "Zennの記事を管理しているGitHubリポジトリのライセンスをみんなはどうしているのか調べてみた"
-emoji: "⚖️"
-type: "idea"
-topics: ["zenn"]
+title: Zennの記事を管理しているGitHubリポジトリのライセンスをみんなはどうしているのか調べてみた
+emoji: ⚖️
+type: idea
+topics:
+  - zenn
 published: true
+date: 2023-10-22
 ---
 
 ## はじめに
@@ -31,12 +33,7 @@ Zennの記事をGitHubで管理してて、そのリポジトリがパブリッ�
 
 ```graphql
 {
-  search(
-    first: 100
-    after: "CURSOR"
-    query: "zenn contents"
-    type: REPOSITORY
-  ) {
+  search(first: 100, after: "CURSOR", query: "zenn contents", type: REPOSITORY) {
     edges {
       cursor
       node {
